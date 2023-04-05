@@ -8,15 +8,4 @@ public final class IntegerDuplicateDeleter extends DuplicateDeleter<Integer> {
     public IntegerDuplicateDeleter(Integer[] intArray) {
         super(intArray);
     }
-
-    @Override
-    public Integer[] removeDuplicates(int maxNumberOfDuplications) {
-
-        return new Integer[0];
-    }
-
-    @Override
-    public Integer[] removeDuplicatesExactly(int exactNumberOfDuplications) {
-        return new Integer[0];
-    }
 }
